@@ -1,0 +1,268 @@
+/* PROYECTO */
+
+
+.container {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding-left:0;
+	padding-right: 0;  
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+[class*="col-"] {
+	padding: 0 0px; 
+	margin-bottom: 0px;
+}
+.contenido{
+	background-color: rgb(237, 234, 234);
+	min-height: 75%;
+	
+}
+.titulo{
+text-align: center;
+font-family: cursive;
+font-size: 70px;
+padding-bottom: 23px;
+padding-top: 10px;
+}
+nav {
+	width: 50%;
+	margin:0 auto;
+	font-family: sans-serif;
+	text-align: center;
+	padding-bottom: 26px;
+}
+a {
+	text-decoration:none; 
+	text-align: center;
+	color: gray;
+	padding: 12px;
+
+}
+.menu2{
+	border-left: 1px solid purple;
+	border-right: 1px solid purple;
+}
+.escuela{
+	text-align: center;
+	padding: 73px 211px;
+	font-family: cursive;
+	font-size: 29px;
+}
+.linea{
+	width: 15%;
+	border:1px solid rgb(83, 82, 84);
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.botom{
+	width: 20%;
+	height: 10%;
+	background-color:  rgb(243, 0, 88);
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px 9px;
+	font-family: monospace;
+	font-size: 27px;
+	margin-bottom: 52px;  
+	border-radius: 3px; 
+	color: white;
+}
+.instructores{
+	background-color:rgb(237, 234, 234);
+	height: 66%; 
+	font-size: 0px;
+}
+
+.menu ,.menu2{
+	text-align: center;
+}
+.instructores2{
+width: 33.33%;
+background-color: black;
+text-align: center;
+padding: 1%;
+font-family:monospace;
+font-size: 35px;
+position: absolute; 
+left: 33.33%; 
+color: white; 
+bottom: 0;
+}
+.row-instructores{
+	position: relative;
+	top:-95px;
+}
+.frase{
+height:35%;
+padding: 79px;
+font-family: cursive;
+font-size: 50px;
+text-align: center;
+}
+.mapa{
+text-align: center;
+padding: 26px 0px;
+}
+/*formulario*/
+
+.contacto{
+	text-align: center;
+	padding: 25px;
+	font-size: 25px;
+	padding-left: 65px;
+	padding-bottom: 19px; 
+	font-family: cursive;
+}
+#formulario{
+	border:solid 0px #EFEAEA;
+	margin:0 auto;
+	width:628px;
+	padding:29px;
+	margin-bottom: 125px;
+	height: 360px;
+	border-radius: 11px;
+	padding-top: 15px;
+
+}
+
+#formulario h1 {
+	font-size:24px;
+	margin-bottom:10px;
+}
+#formulario label{
+	display:block;
+	text-align:right;
+	width:140px;
+	float:left;
+	padding: 10px;
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+#formulario .detalle{
+	color:black;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#formulario input{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #BBC0C3;
+	width:100%;
+	margin:2px 0 20px 10px;
+	height: 61px;
+	
+}
+#formulario button{
+  margin:0 auto;
+  width:156px;
+  height:43px;
+  text-align:center;
+  font-size:15px;
+ position: relative;
+  left: 140px;
+  margin-left:18%;
+ font-family: 'Roboto', sans-serif;
+ margin-top: 24px;
+}
+form #form{
+  width: 485px;
+height: 298px;
+}
+input #name{
+  height: 35px;
+}
+input#password.mensaje{
+  height: 111px;
+}
+textarea {
+width: 100%;
+margin: 9px;
+resize: none;
+padding: 25px;
+}
+.button{
+  padding-left: 2px;
+	margin-top: 10px;
+	border-top-width: 0px;
+	margin-left: 21%;
+}
+.content-footer{
+height:10%;
+background-color: black; 
+} 
+.contenido1{ 
+	background-color: rgb(237, 234, 234);
+	min-height: 100%;
+	padding: 42px;
+    background-image: url(../img/dance.jpg);  
+    background-position: center; 
+    background-size: cover;
+}  
+img{width: 100%;  
+	height: 100%; 
+
+} 
+  
+h1{ 
+font-size: 35px; 
+}
+ 
+
+.portada{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/porta.jpg);
+	background-size: cover;
+	background-position: 40%;
+	position: relative;
+	background-attachment: fixed;
+	position: relative;
+}
+.overlay-portada{
+	width: 100%;
+	height: 100%;
+	top:0;
+	position: absolute;
+	background-color: rgba(255, 252, 252, 0.5);
+}
+.overlay-welcome .titulado{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: right;
+}
+.parrafo{
+	float: right;
+	width: 35%;
+	position: absolute;
+	top: 38%;
+	left: 10%;
+	line-height: 1.5; 
+	font-family: arial; 
+	font-size: 20px;
+} 
+h4{ 
+margin: 2% 0; 
+}  
+a:hover{ 
+background-color: black; 
+} 
+a:hover{color: white; 
+	} 
+.parrafo h1{ 
+font-family: cursive; 
+}

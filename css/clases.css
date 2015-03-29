@@ -1,0 +1,79 @@
+/* PROYECTO */  
+.titulo{
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+padding-bottom: 23px;
+padding-top: 32px;
+}        
+nav {
+	width: 50%;
+	margin:0 auto;
+	font-family: sans-serif;
+	text-align: center;
+	padding-bottom: 26px;
+}
+a {
+	text-decoration:none; 
+	text-align: center;
+	color: gray;
+	padding: 12px;  
+} 
+.paquetes{ 
+border-top: 1px solid gray;  
+padding-left: 105px; 
+padding-right: 105px; 
+padding: 113px;
+} 
+.oferta{ 
+     text-align: center; 
+	padding: -16px; 
+	width: 98%; 
+	margin: 0 auto; 
+	border-bottom: 20px;  
+	padding-bottom: 23px; 
+	font-size: 50px; 
+	font-family: verdana;
+}
+.container{ 
+width: 100%;  
+margin: 0 auto; 
+min-height: 100%; 
+padding-left: 0; 
+padding-right: 0;
+}
+.linea{ 
+border: 1px solid gray;  
+width: 98%; 
+margin: 0 auto; 
+margin-bottom: 46px;
+} 
+.content{ 
+background-color:#707070 ; 
+height: 40%;
+} 
+ 
+.clases{ 
+width: 100%;   
+background-color: #B8B8B8;  
+padding: 14px; 
+font-family: arial; 
+padding-left: 30px; 
+}  
+h3{   
+font-size: 25px; 
+padding-bottom: 10px; 
+} 
+span{ 
+font-family: arial;   
+font-size: 23px
+} 
+.footer{ 
+height: 10%; 
+background-color:#707070; 
+}
+[class*="col-"] {
+	
+	padding: 14px;
+}
+

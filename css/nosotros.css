@@ -1,0 +1,122 @@
+ 
+
+ .container{ 
+width: 100%;  
+margin: 0 auto; 
+min-height: 100%; 
+padding-left: 0; 
+padding-right: 0; 
+} 
+.nosotros{ 
+text-align: center; 
+font-size: 45px; 
+font-family: arial; 
+color: gray; 
+}  
+.texto{ 
+border-top: 1px solid gray; 
+padding: 110px; 
+}
+.raya{
+	width: 100%;
+	border:1px solid gray;
+	margin: 0 auto;
+	margin-bottom: 35px;  
+	margin-top: 28px;
+} 
+.titulo{
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+padding-bottom: 23px;
+padding-top: 32px;
+}        
+nav {
+	width: 50%;
+	margin:0 auto;
+	font-family: sans-serif;
+	text-align: center;
+	padding-bottom: 26px;
+}
+a {
+	text-decoration:none; 
+	text-align: center;
+	color: gray;
+	padding: 12px;  
+}  
+.parrafo{ 
+padding: 55px 26%; 
+font-family: arial; 
+font-size: 25px; 
+line-height: 1.4; 
+color: #615D5D; 
+text-align: center; 
+} 
+.concepto{ 
+width: 100%; 
+background-color: ; 
+padding: 14px; 
+font-family: arial; 
+} 
+h3{ 
+font-size: 24px; 
+padding-bottom: 10px;  
+}
+
+.row{    
+	margin-right: 0; 
+	margin-left: 0;
+} 
+.pilares{ 
+padding-left: 190px; 
+padding-right: 190px;  
+text-align: center; 
+background-color: #C8C8C8; 
+padding-bottom: 52px; 
+padding-top: 52px;
+}  
+span{ 
+font-size: 20px;  
+font-family: arial; 
+}   
+
+.contenido{ 
+background-color: #707070; 
+height: 38%; 
+}
+.instructores{ 
+text-align: center; 
+font-size: 50px; 
+font-family: arial;  
+padding-top: 30px;
+} 
+.linea{ 
+border:1px solid gray; 
+width: 97%; 
+margin: 0 auto; 
+margin-bottom: 7%;  
+margin-top: 30px;
+}
+.nombre{ 
+width: 100%; 
+background-color: ; 
+padding: 10px; 
+padding-left: 12px;  
+font-family: arial;
+} 
+[class*="col-"] {
+
+	margin-bottom: 18px; 
+} 
+.portada-final{ 
+height: 40%; 
+padding: 85px; 
+font-family: sans-serif; 
+font-size: 50px; 
+text-align: center;
+} 
+.footer{ 
+height: 10%; 
+background-color: #707070; 
+padding-top: 40px; 
+}
