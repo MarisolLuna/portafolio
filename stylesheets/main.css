@@ -5305,175 +5305,189 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-header.intro {
-  background: url(../img/dancee.jpg) no-repeat bottom center scroll;
+header.portada {
+  background: url(../img/portafolio.jpg) no-repeat center center scroll;
   background-size: cover;
-  background-position: center center;
-  height: 100%; }
-
-/*@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;  
-    }*/
-.intro .intro-body .brand-heading {
-  font-size: 100px; }
-
-.intro .intro-body .intro-text {
-  font-size: 26px; }
-
-a.navbar-brand {
-  font-family: cursive;
-  font-size: 25px; }
-
-a {
-  font-size: 18px; }
-
-@media (min-width: 767px) {
-  ul.nav.navbar-nav {
-    float: right; } }
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 99px;
-    padding-bottom: 99px; }
-
-  .navbar-nav {
-    text-align: center;
-    float: none; }
-    .navbar-nav li {
-      float: right;
-      display: inline-block;
-      font-size: 16px;
-      padding: 0 20px; } }
-    @media screen and (min-width: 767px) and (max-width: 480px) {
-      .navbar-nav li {
-        display: block; } }
-
-@media (min-width: 767px) {
-  h2 {
-    margin: 0 0 35px;
-    text-transform: cursive;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 40px;
-    margin-top: 40px; } }
-h3 {
-  font-size: 23px;
-  margin-bottom: 57px;
-  font-family: cursive;
-  line-height: 1.6;
-  margin: 0 0 45px; }
-
-.linea {
-  width: 21%;
-  border: 1px solid #535254;
-  margin: 0 auto;
-  margin-bottom: 50px; }
-
-a.btn.btn-default.btn-lg, .btn-group-lg > a.btn.btn-default {
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 12px 10px; }
-
-.instructores img {
+  height: 100%;
+  position: relative;
+  display: table;
   width: 100%;
-  height: 100%; }
+  background-color: rgba(44, 62, 80, 0.6); }
 
-.instructores {
-  background-color: #edeaea;
-  height: 66%;
-  font-size: 0px; }
-
-.row {
-  margin: 0px; }
-  .row [class*="col-"] {
-    padding: 0 0px;
-    margin-bottom: 54px;
-    margin-top: 30px; }
-
-.frase {
-  padding: 30px;
+.frase1 {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
-  font-family: cursive;
-  font-size: 37px; }
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700; }
 
-nav.navbar.navbar-default {
-  margin: 0px;
-  position: fixed;
+.frase1 p {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300; }
+
+.title {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.foto {
   width: 100%;
-  z-index: 1000;
-  color: black;
+  margin: 0 auto;
+  padding-top: 46px; }
+
+.foto img {
+  width: 241px;
+  border-radius: 50%;
+  border: 5px solid white; }
+
+.nombre {
+  color: #000;
+  font-size: 38px;
+  padding-top: 20px;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1;
+  font-weight: 800; }
+
+h1 {
+  text-align: center; }
+
+#about {
   background-color: white; }
 
-.contenido {
-  background-color: white;
-  height: 250px;
-  border: 2px solid; }
-
-.col-md-4.col-sm-6 {
-  padding-right: 15px; }
-
-.subtitulo {
-  background-color: #69F0AE;
-  height: 50px;
-  text-align: center;
-  padding-top: 10px;
-  font-size: 20px;
-  font-family: cursive; }
-
-span.glyphicon.glyphicon-camera {
-  font-size: 83px;
-  top: 45px; }
-
-/*.container{ 
-width:100%  
-} */
-span.glyphicon.glyphicon-envelope {
-  font-size: 77px;
-  top: 45px; }
-
-span.glyphicon.glyphicon-cloud {
-  font-size: 100px;
-  top: 45px; }
-
-.row.cuadros {
-  width: 101%; }
-
-.row.lema {
-  background-color: #B2EBF2; }
-
-/*contactanos
-.row {
-   margin-left:0; 
-  margin-right: 0;
-}
-.col-xs-6{
-    padding-right: 0px;
-  padding-left: 0px;
-  }
-  .col-sm-12{
-    padding: 0;
-  }
-  formulario.contactanos 
-    .msj{
-      .form-control{
-          height: 188px;
-            border-bottom: 2px solid #eee;
-                  }
-      }
-      .form-control{
-  height: 101px;
-  border:0;
-}*/
-/*fin del de la clase msj*/
 .titulo {
-  color: black;
+  font-size: 44px;
+  padding: 36px;
+  color: #000;
+  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  line-height: 1; }
+
+.ocupacion {
+  color: red;
+  font-size: 20px; }
+
+.descripcion {
+  padding-top: 20px;
+  padding-bottom: 95px;
+  line-height: 2; }
+
+.linea {
+  border: 2px solid black;
+  width: 30%; }
+
+/*skill*/
+img {
+  width: 100%; }
+
+.tskill {
+  color: #000;
   text-align: center;
-  font-size: 39px;
-  padding: 22px; }
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 27px; }
+
+.container-fluid-banner {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.baner {
+  background-image: url(../img/portafolio2.jpg);
+  height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-position: 40%;
+  background-attachment: fixed;
+  position: relative;
+  display: table; }
+
+.overlay-baner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 62, 80, 0.6);
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em; }
+
+/*section que hago*/
+.section-heading {
+  padding-bottom: 51px;
+  padding-top: 89px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600; }
+
+span.glyphicon.glyphicon-console {
+  font-size: 35px;
+  color: #35bdf6; }
+
+span.glyphicon.glyphicon-menu-hamburger {
+  font-size: 35px;
+  color: #35bdf6; }
+
+span.glyphicon.glyphicon-picture {
+  font-size: 35px;
+  color: #35bdf6; }
+
+.baner2 {
+  background-image: url(../img/portafolio2.jpg);
+  height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-position: 40%;
+  background-attachment: fixed;
+  position: relative;
+  display: table; }
+
+.overlay-baner2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(44, 62, 80, 0.6);
+  display: table-cell;
+  vertical-align: middle; }
+
+#banner {
+  padding-top: 120px; }
+
+.col-md-4.text-center {
+  padding-bottom: 32px; }
+
+/*PORTFOLIO*/
+.col-sm-4 {
+  padding-bottom: 20px; }
+
+/*efecto hover*/
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0; }
+  .overlay .phover {
+    visibility: hidden;
+    padding-top: 33%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em; }
+  .overlay span.glyphicon.glyphicon-search {
+    visibility: hidden; }
+
+.overlay:hover {
+  background-color: #2980b9;
+  color: white; }
+  .overlay:hover p {
+    visibility: visible; }
+  .overlay:hover span.glyphicon.glyphicon-search {
+    visibility: visible;
+    font-size: 28px; }
+
+.work {
+  position: relative; }
 
 /*tercera parte comienza con el contactanos*/
 form {
@@ -5486,26 +5500,16 @@ form {
   margin: 0 auto;
   border-top: 1px solid #eee; }
 
-.btn-default {
+.btn-default-ct {
   padding: 18px 27px;
   font-size: 16px;
   line-height: 1.33;
   border: 0;
   color: white;
-  background-color: black; }
+  background-color: #EF5350; }
 
 .btn-default:hover {
-  background-color: gray;
-  color: white; }
-
-.titulo-ctn {
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: black;
-  padding: 63px 0 34px;
-  font-size: 40px;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; }
+  background-color: white; }
 
 .contac-btn {
   text-align: center;
@@ -5518,64 +5522,83 @@ input#pwd {
 .form-group {
   padding-bottom: 20px; }
 
-.footer {
-  height: 66px;
-  background-color: #E0E0E0; }
-  .footer p {
-    color: black;
-    text-align: center;
-    padding-top: 30px; }
-
-/* color a las letras del navegcion*/
-.navbar-default .navbar-nav > li > a {
-  color: white; }
+/*navegacion*/
+ul.nav.navbar-nav {
+  font-size: 15px;
+  font-family: monospace;
+  padding-top: 5px; }
 
 a.navbar-brand {
+  font-family: monospace;
+  font-size: 25px; }
+
+hr {
+  border: 2px solid #F44336;
+  width: 80px; }
+
+#footer {
+  background-color: #000;
+  color: white;
+  height: 136px; }
+
+.correo {
+  padding-top: 20px; }
+
+/*modificaiones*/
+.col-md-12.text-center.porta {
+  padding-bottom: 70px; }
+
+.sub {
+  padding: 14px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-family: 'Dosis', sans-serif; }
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-weight: 800; }
+
+h3 {
+  text-align: center; }
+
+a.btn.btn-lg.btn-theme-color, .btn-group-lg > a.btn.btn-theme-color {
+  background-color: #EF5350;
   color: white; }
 
-nav.navbar.navbar-default {
-  background-color: black; }
+.ocupacion {
+  font-family: 'Dosis', sans-serif;
+  color: darkcyan;
+  font-weight: 800; }
 
-.navbar-default {
-  border-color: black;
-  border-radius: 0; }
+.container-fluid-banner {
+  margin-top: 28px; }
 
-.navbar-default .navbar-brand {
-  color: white; }
+.fin {
+  font-family: 'Dosis', sans-serif; }
 
-ul.nav.navbar-nav {
-  font-family: cursive; }
+.correo {
+  font-family: 'Dosis', sans-serif; }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white; }
+.linke {
+  width: 30px;
+  display: inline-block;
+  margin-right: 5px; }
 
-/*naavegacion*/
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: #333;
-  background-color: white;
-  color: none; }
+.face {
+  width: 30px;
+  display: inline-block;
+  margin-right: 5px; }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #1DE9B6; }
+.twiter {
+  width: 30px;
+  display: inline-block;
+  margin-right: 5px; }
 
-/* estilos al blog */
-.page-header {
-  margin: 94px 0 20px;
-  text-align: center;
-  border-bottom: 2px solid black; }
-
-h1.page-header {
-  font-size: 34px;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  letter-spacing: 1px; }
-
-.img-responsive {
-  max-width: 95%; }
-
-/*estilos de clases*/
-.tipos {
-  color: #3F51B5;
-  font-size: 20px; }
+p {
+  margin: 0 0 20px; }
 
 /*# sourceMappingURL=main.css.map */
